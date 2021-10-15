@@ -7,7 +7,7 @@ import pytesseract
 
 def get_text_from_image(img_path, try_count, image_count):
     if not os.path.exists('image_text'):
-        os.mkdir('image_text')
+        os.mkdir('this is the testing branch merge test')
     if not os.path.exists(img_path):
         return None
     if os.path.exists(os.path.join('image_text', '{}.txt'.format(img_path[7:]))):
