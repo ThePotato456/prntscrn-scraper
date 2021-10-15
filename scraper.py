@@ -15,6 +15,9 @@ def generate_link():
     result_str = (''.join((random.choice(source) for i in range(6)))).lower()
     return (result_str)
 
+if not os.path.exists('images'):
+    os.mkdir('images/')
+
 if len(os.listdir('images/')):
     file_count = (len(os.listdir('images/')))
 else:
