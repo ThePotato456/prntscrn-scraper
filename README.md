@@ -16,9 +16,11 @@ pip3 install -r requirements.txt
 
 ## scraper.py
 This is just a simple scraper to generate random 6 character links for prnt.sc and download an image if there is one at that address.
+`python3 scraper.py`
 ![github_scraper](https://user-images.githubusercontent.com/10734039/137588474-0d5ffefa-165e-474b-a51c-2ef26aaf4d1f.png)
 
 
 ## find-text.py
 This script uses pytesseract to find text in images and output it into a txt file in image_text/
+`python3 find-text.py`
 ![github_findtext](https://user-images.githubusercontent.com/10734039/137588566-5379cb0c-e10f-484e-95f2-abba04b6d972.png)
