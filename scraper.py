@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from random import randrange
 from bs4 import BeautifulSoup
 from bs4.dammit import EncodingDetector

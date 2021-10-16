@@ -1,6 +1,7 @@
+#!/usr/bin/python3
 import cv2
 import os
-
+import time
 import pytesseract
 
 
@@ -28,6 +29,7 @@ if __name__ == "__main__":
         try:
             try_count = try_count + 1
             get_text_from_image(os.path.join('images/', image), try_count, image_count)
+            time.sleep(2)
         except Exception as e:
             non_images.append(image)
     print(non_images)
