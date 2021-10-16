@@ -21,6 +21,6 @@ This is just a simple scraper to generate random 6 character links for prnt.sc a
 
 
 ## find-text.py
-This script uses pytesseract to find text in images and output it into a txt file in image_text/
+This script uses pytesseract to find text in images and output it into a txt file in image_text/ <br />
 `python3 find-text.py`
 ![github_findtext](https://user-images.githubusercontent.com/10734039/137588566-5379cb0c-e10f-484e-95f2-abba04b6d972.png)
