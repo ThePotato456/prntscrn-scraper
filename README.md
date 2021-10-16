@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 ```
 
 ## scraper.py
-This is just a simple scraper to generate random 6 character links for prnt.sc and download an image if there is one at that address.
+This is just a simple scraper to generate random 6 character links for prnt.sc and download an image if there is one at that address.<br />
 `python3 scraper.py`
 ![github_scraper](https://user-images.githubusercontent.com/10734039/137588474-0d5ffefa-165e-474b-a51c-2ef26aaf4d1f.png)
 
