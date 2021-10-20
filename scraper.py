@@ -54,5 +54,5 @@ if __name__ == "__main__":
 
             time.sleep(0.3)
     except KeyboardInterrupt:
-        print('\n[-] Exiting scraper.py, goodbye!')
+        print('\n[-] Exiting scraper.py, g oodbye!')
         exit(0)
